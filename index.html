@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tabuada</title>
+
+	<link rel="stylesheet" href="imports/css/index.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap">
+</head>
+<body>
+	<div id="caixaCorpo">
+		<header>
+			<h1>Tabuada</h1>
+		</header>
+		<main>
+			<div id="entradaNumero">
+				<label for="numTabuada">Número:</label>
+				<input type="number" id="numTabuada">
+				<button onclick="geraTabuada()">Gera Tabuada</button>
+			</div>
+			<div id="listaTabuada">
+				<select size="10" onclick="adicionaTelaoLinhaTabuada(this)">
+				</select>
+				<div>
+					<p></p>
+				</div>
+			</div>
+		</main>
+	</div>
+	<script src="imports/js/index.js"></script>
+</body>
+</html>

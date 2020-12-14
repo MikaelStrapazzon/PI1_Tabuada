@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root{
+	font-size: 62.5%;
+}
+
+body{
+	height: 100vh;
+
+	display: flex;
+	text-align: center;
+
+	background: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+	color: white;
+	font: 400 2rem/1 "Nunito", sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+#caixaCorpo{
+	margin: auto;
+}
+
+header{
+	margin: 0 0 20px;
+}
+
+main{
+	background: #ebf2f5;
+	border-radius: 10px;
+
+	padding: 15px;
+
+	color: black;
+}
+
+#entradaNumero{
+	margin: 0 0 10px;
+}
+
+#entradaNumero > button{
+	border-radius: 5px;
+	border-color: rgba( 0, 0, 0, 20%);
+	padding: 3px;
+}
+
+#listaTabuada{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#listaTabuada > select{
+	width: 30%;
+	overflow-y: hidden;
+	overflow-x: auto;
+}
+
+#listaTabuada > div{
+	width: 70%;
+}
+
+.numeroInvalido{
+	border-color: red;
+}
